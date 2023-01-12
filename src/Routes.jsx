@@ -1,3 +1,19 @@
+import * as React from 'react';
+import {BrowserRouter,Routes,Route} from "react-router-dom";
+import NavBHome from './components/organismos/NavBHome';
+
+const Rutas = () => {
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<NavBHome/>}/>
+            </Routes>
+        </BrowserRouter>
+    )
+}
+export default Rutas
+
+
 /*import * as React from "react";
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import NavBar from './components/nav/NavBar';
@@ -27,3 +43,4 @@ const Rutas = () => {
     )
 }
 export default Rutas*/
+

@@ -1,0 +1,18 @@
+.navbar-custom{
+  /*background-color: transparent*/
+  background-color: rgb(223, 208, 237);
+}
+  
+h1{
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.navbar-item{
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-item:hover{
+  color: rgb(186, 29, 147);
+}
