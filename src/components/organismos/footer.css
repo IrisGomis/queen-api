@@ -1,0 +1,125 @@
+.footer {
+    background-color: #1b2a4e;
+}
+
+.top-footer {
+    padding-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.footer-info-description {
+    margin-top: 30px;
+    font-family: 'lanenar';
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+    color: #979dcf;
+}
+
+.footer-title-links {
+    margin-top: 5px;
+    /* font-family: 'lanenar'; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+}
+
+.footer-links {
+    list-style: none;
+    font-family: 'lanenar';
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.7rem;
+    color: #979dcf;
+}
+
+.bottom-footer {
+    height: 20px;
+}
+
+hr {
+    color: #979dcf;
+}
+
+.footer-disclaimer-text {
+    text-align: left;
+    margin-left: 70px;
+    margin-top: -7px;
+    font-family: 'lanenar';
+    font-weight: bold;
+    font-size: 13px;
+    color: #979dcf;
+}
+
+.footer-designer-text {
+    text-align: right;
+    margin-right: 70px;
+    margin-top: -7px;
+    font-family: 'lanenar';
+    font-weight: bold;
+    font-size: 13px;
+    color: #979dcf;
+}
+
+.footer-designer-text-queen {
+    color: white;
+}
+
+.footer-info-rrss-facebook {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #293f73;
+    border: none;
+    color: white;
+}
+
+.footer-info-rrss-facebook:hover {
+    background-color: #979dcf;
+}
+
+.footer-info-rrss-twitter {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #293f73;
+    border: none;
+    color: white;
+}
+
+.footer-info-rrss-twitter:hover {
+    background-color: #979dcf;
+}
+
+.footer-info-rrss-linkedin {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #293f73;
+    border: none;
+    color: white;
+}
+
+.footer-info-rrss-linkedin:hover {
+    background-color: #979dcf;
+}
+
+.footer-info-rrss-user {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #293f73;
+    border: none;
+    color: white;
+}
+
+.footer-info-rrss-user:hover {
+    background-color: #979dcf;
+}
