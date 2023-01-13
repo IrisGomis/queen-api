@@ -1,33 +1,50 @@
-import React from "react";
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
-import Button from 'react-bootstrap/Button';
+import React, {useState} from "react";
+import {NavDropdown, Nav, Navbar, Container, Button} from "react-bootstrap";
 import '../organismos/navBHome.css';
-import Logo from '../../images/logo-white.png';
-//import { Link } from 'react-router-dom';
+//import LogoW from '../../images/logo-white.png';
+import LogoB from '../../images/logo.png';
 
 function NavBHome() {
+  const [navbar, setNavbar] = useState(false);
+
+  const changeBg = () =>{
+    if(window.scrollY >= 20) {
+      setNavbar(true);
+    }
+    else {
+      setNavbar(false);
+    }
+  };
+  window.addEventListener('scroll', changeBg);
+
   return (
     <>
-      <Navbar className='navbar-custom fixed-top'>
+    {/*Main*/}
+      <Navbar collapseOnSelect expand="lg" className={navbar ? 'navbar scroll navbar-custom fixed-top' : 'navbar navbar-custom fixed-top'} >
         <Container>
           <Navbar.Brand href="/">
-            <img src={Logo} className="d-inline-flex align-center" alt="React Bootstrap logo"/>
+            <img src={LogoB} className='logo d-inline-flex align-center' alt="React Bootstrap logo"/>
           </Navbar.Brand>
-          <Navbar className="">
-            <h1 className="navbar-item me-3 fw-light"> Home </h1>
-            <h1 className="navbar-item me-3 fw-light"> Prevention </h1>
-            <h1 className="navbar-item me-3 fw-light"> Qurantine </h1>
-            <h1 className="navbar-item me-3 fw-light"> Pages </h1>
-            <h1 className="navbar-item me-3 fw-light"> About </h1>
-            <h1 className="navbar-item me-3 fw-light"> Help </h1>
-            <div className="mx-auto">
-              <Button className="rounded-pill " size="sm"> Tracker </Button>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end fw-bold">
+            <Nav.Link className="navbar-item me-5" activeClassName="is-active" to="/Home" exact>Home</Nav.Link>
+            <Nav.Link className="navbar-item me-5" activeClassName="is-active" to="/Prevention" exact>Prevention</Nav.Link>
+            <Nav.Link className="navbar-item me-5" activeClassName="is-active" to="/Qurantine" exact>Qurantine</Nav.Link>
+            <NavDropdown title="Pages" className="navbar-item me-5">
+              <NavDropdown.Item className="navbar-item" activeClassName="is-active" to="/HandWash" exact>Hand Wash</NavDropdown.Item>
+              <NavDropdown.Item className="navbar-item" activeClassName="is-active" to="/SocialDistance" exact>Social Distance</NavDropdown.Item>
+              <NavDropdown.Item className="navbar-item" activeClassName="is-active" to="/Blog" exact>Blog</NavDropdown.Item>
+              <NavDropdown.Item className="navbar-item" activeClassName="is-active" to="/BlogDetails" exact>Blog Details</NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link className="navbar-item me-5" activeClassName="is-active" to="/About" exact>About</Nav.Link>
+            <Nav.Link className="navbar-item me-5" activeClassName="is-active" to="/Help" exact>Help</Nav.Link>
+            <div className="me-5">
+              <Button className="rounded-pill fw-bold" activeClassName="is-active" to="/Tracker" exact>Tracker</Button>
             </div>
-           
-          </Navbar>
+          </Navbar.Collapse>           
         </Container>
       </Navbar>
+      <div className="div1"></div>
     </>
   );
 }

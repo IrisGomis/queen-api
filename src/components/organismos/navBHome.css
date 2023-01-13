@@ -1,18 +1,23 @@
-.navbar-custom{
-  /*background-color: transparent*/
-  background-color: rgb(223, 208, 237);
-}
-  
-h1{
-  color: #fff;
-  font-size: 1.2rem;
+.navbar{
+  background-color: #fff
 }
 
+.navbar.scroll{
+  background-color: #fff;
+}
+  
 .navbar-item{
   text-decoration: none;
-  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(56, 54, 54);
+  font-size: 1rem;
 }
 
 .navbar-item:hover{
-  color: rgb(186, 29, 147);
+  color: rgb(18, 28, 206);
+}
+
+.div1{
+  background-color: rgb(41, 19, 120);
+  height: 100rem;
 }
