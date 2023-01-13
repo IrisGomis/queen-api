@@ -1,27 +1,4 @@
-@font-face {
-  font-family:'webfont';
-  src: local('fontawesome-webfont'),
-       url(../src/assets/fonts/fontawesome-webfont.ttf)
-       format(truetype)
-}
-@font-face {
-  font-family:'glyphicons';
-  src: local('glyphicons-halflings-regular'),
-       url(../src/assets/fonts/glyphicons-halflings-regular.ttf)
-       format(truetype)
-}
-@font-face {
-  font-family:'themify';
-  src: local('themify'),
-       url(../src/assets/fonts/themify.ttf)
-       format(truetype)
-}
-@font-face {
-  font-family:'lanenar';
-  src:
-       url(../src/assets/fonts/lanenar_Lane.ttf)
-       format(truetype)
-}
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Kanit:wght@300&family=Mulish&family=Poppins:wght@200;300;400&display=swap');
 
 body {
   margin: 0;
