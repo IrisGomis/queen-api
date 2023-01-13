@@ -1,29 +1,34 @@
-/*import * as React from "react";
+import * as React from "react";
 import {BrowserRouter,Routes,Route} from "react-router-dom";
-import NavBar from './components/nav/NavBar';
-import Footer from './components/footer/Footer';
-import Boton from './components/boton/Boton';
-import Sound from './components/pages/Sound';
-import Discovery from './components/pages/Discovery';
-import Join from './components/pages/Join';
-import Azul from './components/circulos/Azul';
-import Cuarto from './components/circulos/Cuarto';
-import Azul from './components/circulos/Rosa';
+import NavBTraker from './components/organismos/NavBTracker.jsx';
+import AjaxData from './components/pages/AjaxData';
+import CardsTracker from './components/pages/CardsTracker';
+import CountryWise from './components/pages/CountryWise';
+import ExGrafhic from './components/pages/ExGraphic';
+import ExMap from './components/pages/ExMap';
+import Home from './components/pages/Home';
+import News from './components/pages/News';
+import Top10Country from './components/pages/Top10Country';
+import Updates from './components/pages/Updates';
+
 const Rutas = () => {
-    return (
+     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/NavBar" element={<NavBar/>}/>
-                <Route path="/Footer" element={<Footer/>}/>
-                <Route path="/Boton" element={<Boton/>}/>
-                <Route path="/Sound" element={<Sound/>}/>
-                <Route path="/Discovery" element={<Discovery/>}/>
-                <Route path="/Join" element={<Join/>}/>
-                <Route path="/Azul" element={<Azul/>}/>
-                <Route path="/Cuarto" element={<Cuarto/>}/>
-                <Route path="/Rosa" element={<Rosa/>}/>
+                <Route path="/NavBTraker" element={<NavBTraker/>}/>
+                <Route path="/AjaxData" element={<AjaxData/>}/>
+                <Route path="/CardsTraker" element={<CardsTracker/>}/>
+                <Route path="/CountryWise" element={<CountryWise/>}/>
+                <Route path="/ExGraphic" element={<ExGrafhic/>}/>
+                <Route path="/ExMap" element={<ExMap/>}/>
+                <Route path="/Home" element={<Home/>}/>
+                <Route path="/News" element={<News/>}/>
+                <Route path="/Top10Country" element={<Top10Country/>}/>
+                <Route path="/Updates" element={<Updates/>}/>
+
+
             </Routes>
         </BrowserRouter>
-    )
-}
-export default Rutas*/
+     )
+ }
+ export default Rutas
