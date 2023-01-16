@@ -5,7 +5,7 @@ import CovidTracker from './components/organismos/CovidTracker';
 function App() {
   return (
     <div className="App">
-      <CovidTracker/>
+      
     </div>
   );
 }
