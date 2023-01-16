@@ -1,4 +1,24 @@
+<<<<<<< HEAD
 import * as React from "react";
+=======
+import * as React from 'react';
+import {BrowserRouter,Routes,Route} from "react-router-dom";
+import NavBHome from './components/organismos/NavBHome';
+
+const Rutas = () => {
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<NavBHome/>}/>
+            </Routes>
+        </BrowserRouter>
+    )
+}
+export default Rutas
+
+
+/*import * as React from "react";
+>>>>>>> f0c2dde7c0189968bd80820ceb7b770816e8982d
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import NavBTraker from './components/organismos/NavBTracker.jsx';
 import AjaxData from './components/pages/AjaxData';
@@ -29,6 +49,13 @@ const Rutas = () => {
 
             </Routes>
         </BrowserRouter>
+<<<<<<< HEAD
      )
  }
  export default Rutas
+=======
+    )
+}
+export default Rutas*/
+
+>>>>>>> f0c2dde7c0189968bd80820ceb7b770816e8982d
