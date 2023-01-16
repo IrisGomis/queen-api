@@ -1,0 +1,73 @@
+html{
+height: 100%;
+font-size: larger;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+  font-size: xx-large; 
+  
+}
+
+body{
+  background-image: url("../../images/3626307.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+} 
+
+.h1-home {
+  font-family: 'Poppins', sans-serif;
+  font: size 80px;
+  padding-top: 50px;   
+}
+.p-home{
+  font-family: 'Poppins', sans-serif;
+  padding-top:10px; 
+}
+
+.img-fluid{
+  height: 550px;
+  width:600px;
+  padding-right: 150px; 
+  margin-top: 80px;
+}
+
+.card{
+  position: relative;
+  width: 350px;
+  height: 90px;
+  margin: left 8px; 
+  
+}
+.card div{
+  position: absolute;
+  width:100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+  transition:2s;
+
+}
+.card .front{
+  background-color: white;
+  transform: perspective(500px) rotateY(0deg);
+}
+.card .back{
+  background-color: white;
+  transform: perspective() rotateY(180deg);
+}
+
+.card:hover .front{
+  
+  transform: perspective(500px) rotateY(180deg);
+}
+
+.card:hover .back{
+  
+  transform: perspective(500px) rotateY(360deg);
+}
