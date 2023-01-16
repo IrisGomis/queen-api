@@ -16,7 +16,7 @@ function Footer() {
             <div className="footer">
                 <Row className="top-footer">
                     <Col className="footer-info" sm={8} md={12} lg={4} xl={4}>
-                        <img clasName="footer-info-logo"
+                        <img className="footer-info-logo"
                             src={ LogoWhite }
                             alt="Logo"
                         />
@@ -24,7 +24,7 @@ function Footer() {
                             These droplets can land objects and<br/>surfaces around the
                             person such as tables,<br/>doorknobs and handrails.
                         </p>
-                        <div className="footer-info-rrss">
+                        <Row className="footer-info-rrss">
                             <button className="footer-info-rrss-facebook">
                                     <FontAwesomeIcon icon={ faFacebookF } />
                             </button>
@@ -37,7 +37,7 @@ function Footer() {
                             <button className="footer-info-rrss-user">
                                     <FontAwesomeIcon icon={ faUser } />
                             </button>
-                        </div>
+                        </Row>
                     </Col>
 
                     <Col className="footer-quick-links" sm={4} md={3} lg={2} xl={2}>
