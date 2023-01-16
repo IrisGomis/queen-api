@@ -1,6 +1,6 @@
+import * as React from "react";
 import './App.css';
 import CovidTracker from './components/organismos/CovidTracker';
-
 
 function App() {
   return (
