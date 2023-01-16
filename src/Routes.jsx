@@ -10,6 +10,7 @@ import Home from './components/pages/Home';
 import News from './components/pages/News';
 import Top10Country from './components/pages/Top10Country';
 import Updates from './components/pages/Updates';
+import Prevent from '../src/components/templates/Prevent'
 
 const Rutas = () => {
      return (
@@ -25,6 +26,7 @@ const Rutas = () => {
                 <Route path="/News" element={<News/>}/>
                 <Route path="/Top10Country" element={<Top10Country/>}/>
                 <Route path="/Updates" element={<Updates/>}/>
+                <Route path="/Prevent" element={<Prevent/>}/>
 
 
             </Routes>
