@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
+import NavBHome from '../organismos/NavBHome';
+import Symptom from '../templates/Symptom';
 
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <div className='Home'>
+      <header>
+        <NavBHome />
+      </header>
+      <Symptom />
+    </div>
+  );
 }
 
-export default Home
+export default Home;

@@ -20,7 +20,7 @@ function NavBHome() {
   return (
     <>
     {/*Main*/}
-      <Navbar collapseOnSelect expand="lg" className={navbar ? 'navbar scroll navbar-custom fixed-top' : 'navbar navbar-custom fixed-top'} >
+      <Navbar collapseOnSelect expand="lg" className={navbar ? 'navbar shadow scroll navbar-custom fixed-top' : 'navbar shadow navbar-custom fixed-top'} >
         <Container>
           <Navbar.Brand href="/">
             <img src={LogoB} className='logo d-inline-flex align-center' alt="React Bootstrap logo"/>
@@ -44,7 +44,6 @@ function NavBHome() {
           </Navbar.Collapse>           
         </Container>
       </Navbar>
-      <div className="div1"></div>
     </>
   );
 }
