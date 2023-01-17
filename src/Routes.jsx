@@ -1,5 +1,5 @@
 import * as React from "react";
-import {BrowserRouter,Routes,Route} from "react-router-dom";
+import {Routes,Route} from "react-router-dom";
 import NavBTraker from './components/organismos/NavBTracker.jsx';
 import AjaxData from './components/pages/AjaxData';
 import CardsTracker from './components/pages/CardsTracker';
@@ -21,7 +21,6 @@ import Wash from './components/templates/Wash';
 
 const Rutas = () => {
      return (
-        <BrowserRouter>
             <Routes>
                 <Route path="/NavBTraker" element={<NavBTraker/>}/>
                 <Route path="/AjaxData" element={<AjaxData/>}/>
@@ -42,7 +41,6 @@ const Rutas = () => {
                 <Route path="/Symptom" element={<Symptom/>}/>
                 <Route path="/Wash" element={<Wash/>}/>
             </Routes>
-        </BrowserRouter>
      )
  }
  export default Rutas

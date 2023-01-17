@@ -1,7 +1,9 @@
 import React, {useState} from "react";
-import {NavDropdown, Nav, Navbar, Container, Button} from "react-bootstrap";
+import {NavDropdown, Navbar, Container, Button} from "react-bootstrap";
 import '../organismos/navBHome.css';
 import LogoB from '../../images/logo.png';
+import { NavLink } from "react-router-dom";
+
 
 function NavBHome() {
   const [navbar, setNavbar] = useState(false);
@@ -26,17 +28,17 @@ function NavBHome() {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end fw-bold">
-              <Nav.Link className="navbar-item me-5" activeClassName="is-active" to="/Home" exact>Home</Nav.Link>
-              <Nav.Link className="navbar-item me-5" activeClassName="is-active" to="/Prevention" exact>Prevention</Nav.Link>
-              <Nav.Link className="navbar-item me-5"  activeClassName="is-active" to="/Spreads" exact>Qurantine</Nav.Link>
+              <NavLink className="navbar-item me-5" activeClassName="is-active" to="/Home" exact>Home</NavLink>
+              <NavLink className="navbar-item me-5" activeClassName="is-active" to="/Prevention" exact>Prevention</NavLink>
+              <NavLink className="navbar-item me-5"  activeClassName="is-active" to="/Spreads" exact>Qurantine</NavLink>
               <NavDropdown title="Pages" className="navbar-item me-5">
                 <NavDropdown.Item className="navbar-item" activeClassName="is-active" to="/HandWash" exact>Hand Wash</NavDropdown.Item>
                 <NavDropdown.Item className="navbar-item" activeClassName="is-active" to="/SocialDistance" exact>Social Distance</NavDropdown.Item>
                 <NavDropdown.Item className="navbar-item" activeClassName="is-active" to="/Blog" exact>Blog</NavDropdown.Item>
                 <NavDropdown.Item className="navbar-item" activeClassName="is-active" to="/BlogDetails" exact>Blog Details</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link className="navbar-item me-5" activeClassName="is-active" to="/About" exact>About</Nav.Link>
-              <Nav.Link className="navbar-item me-5" activeClassName="is-active" to="/Help" exact>Help</Nav.Link>
+              <NavLink className="navbar-item me-5" activeClassName="is-active" to="/About" exact>About</NavLink>
+              <NavLink className="navbar-item me-5" activeClassName="is-active" to="/Help" exact>Help</NavLink>
               <div className="me-5">
                 <Button className="rounded-pill fw-bold" activeClassName="is-active" to="/Tracker" exact>Tracker</Button>
               </div>
