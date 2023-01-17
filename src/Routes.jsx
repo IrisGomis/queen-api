@@ -1,24 +1,4 @@
-<<<<<<< HEAD
 import * as React from "react";
-=======
-import * as React from 'react';
-import {BrowserRouter,Routes,Route} from "react-router-dom";
-import NavBHome from './components/organismos/NavBHome';
-
-const Rutas = () => {
-    return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<NavBHome/>}/>
-            </Routes>
-        </BrowserRouter>
-    )
-}
-export default Rutas
-
-
-/*import * as React from "react";
->>>>>>> f0c2dde7c0189968bd80820ceb7b770816e8982d
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import NavBTraker from './components/organismos/NavBTracker.jsx';
 import AjaxData from './components/pages/AjaxData';
@@ -31,6 +11,13 @@ import News from './components/pages/News';
 import Top10Country from './components/pages/Top10Country';
 import Updates from './components/pages/Updates';
 import Prevent from '../src/components/templates/Prevent'
+import Blog2 from './components/templates/Blog2';
+import Faqs from './components/templates/Faqs';
+import Landing from './components/templates/Landing';
+import Mobile from './components/templates/Mobile';
+import Spreads from './components/templates/Spreads';
+import Symptom from './components/templates/Symptom';
+import Wash from './components/templates/Wash';
 
 const Rutas = () => {
      return (
@@ -46,18 +33,16 @@ const Rutas = () => {
                 <Route path="/News" element={<News/>}/>
                 <Route path="/Top10Country" element={<Top10Country/>}/>
                 <Route path="/Updates" element={<Updates/>}/>
+                <Route path="/Blog2" element={<Blog2/>}/>
+                <Route path="/Faqs" element={<Faqs/>}/>
+                <Route path="/Landing" element={<Landing/>}/>
+                <Route path="/Mobile" element={<Mobile/>}/>
+                <Route path="/Spreads" element={<Spreads/>}/>
                 <Route path="/Prevent" element={<Prevent/>}/>
-
-
+                <Route path="/Symptom" element={<Symptom/>}/>
+                <Route path="/Wash" element={<Wash/>}/>
             </Routes>
         </BrowserRouter>
-<<<<<<< HEAD
      )
  }
  export default Rutas
-=======
-    )
-}
-export default Rutas*/
-
->>>>>>> f0c2dde7c0189968bd80820ceb7b770816e8982d

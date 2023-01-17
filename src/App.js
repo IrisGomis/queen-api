@@ -1,14 +1,14 @@
 import * as React from "react";
 import './App.css';
-import CovidTracker from './components/organismos/CovidTracker';
 import NavBHome from './components/organismos/NavBHome';
-
+import Routes from "./Routes";
 
 
 function App() {
   return (
     <div className="App">
-      <NavBHome />
+      <Routes/>
+      <NavBHome/>
     </div>
   );
 }
