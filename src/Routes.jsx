@@ -1,5 +1,5 @@
 import * as React from "react";
-import {Routes,Route} from "react-router-dom";
+import {Routes,Route,Switch} from "react-router-dom";
 import NavBTraker from './components/organismos/NavBTracker.jsx';
 import AjaxData from './components/pages/AjaxData';
 import CardsTracker from './components/pages/CardsTracker';
@@ -22,8 +22,9 @@ import Wash from './components/templates/Wash';
 const Rutas = () => {
      return (
             <Routes>
+                <Route path="/" element= {<Home/>}/>
                 <Route path="/NavBTraker" element={<NavBTraker/>}/>
-                <Route path="/AjaxData" element={<AjaxData/>}/>
+                <Route exact path="/AjaxData" element={<AjaxData/>}/>
                 <Route path="/CardsTraker" element={<CardsTracker/>}/>
                 <Route path="/CountryWise" element={<CountryWise/>}/>
                 <Route path="/ExGraphic" element={<ExGrafhic/>}/>

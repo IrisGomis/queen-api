@@ -8,7 +8,7 @@ function Home() {
       <header>
         <NavBHome/>
       </header>
-      <Spreads/>
+        <Spreads/>
     </div>  
   );
 }

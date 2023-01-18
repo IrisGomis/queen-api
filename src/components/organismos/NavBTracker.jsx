@@ -1,5 +1,5 @@
 import * as React from "react";
-import {BrowserRouter, Link,} from "react-router-dom";
+import {Link} from "react-router-dom";
 import coronavirus from '../../images/coronavirus.png';
 import '../../App';
 import "./navbtracker.css";
@@ -8,10 +8,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 function NavBTracker() {
   return (
-    <BrowserRouter>
-      <section>
-        <div
-          className="d-flex flex-column flex-shrink-0 bg-gray-tracker col-sm-2 col-lg-1 vh-100 d-flex justify-content-center bar-tracker">
+        <div className="d-flex flex-column flex-shrink-0 bg-gray-tracker col-sm-2 col-lg-1 vh-100 d-flex justify-content-center bar-tracker">
           <Link
             to='/Home'
             className="d-block d-flex justify-content-center align-items-center pt-4 pb-4">
@@ -22,8 +19,7 @@ function NavBTracker() {
           </Link>
           <ul className="nav nav-pills nav-flush flex-column mb-auto text-center">
             <li className="nav-item">
-              <Link to='/Top10Country     ' className="nav-link">
-                {/* <span className="circle-icon bg-warning"></span> */}
+              <Link to='/UpDates     ' className="nav-link">
                 <i className="bi bi-clock text-blue-primary icon-track"></i>
               </Link>
             </li>
@@ -33,7 +29,7 @@ function NavBTracker() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to='/Updates' className="nav-link">
+              <Link to='/Top10Country' className="nav-link">
                 <i className="bi bi-grid text-blue-primary icon-track"></i>
               </Link>
             </li>
@@ -71,8 +67,6 @@ function NavBTracker() {
               </Link>
             </div>
         </div>
-      </section>
-    </BrowserRouter>
   )
 }
 

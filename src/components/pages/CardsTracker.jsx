@@ -1,8 +1,18 @@
-import React from 'react'
+import React from 'react';
+import NavBTracker from '../organismos/NavBTracker';
+import CovidTracker from '../organismos/CovidTracker';
 
 function CardsTracker() {
   return (
-    <div>CardsTracker</div>
+    <main className="d-flex">
+    <section >
+      <NavBTracker/>
+    </section>  
+    <section className="nav-info bg-white">  
+      <CovidTracker/>
+    </section>
+  </main>
+
   )
 }
 

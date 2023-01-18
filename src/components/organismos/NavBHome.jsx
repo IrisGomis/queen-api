@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import {NavDropdown, Navbar, Container, Button} from "react-bootstrap";
 import '../organismos/navBHome.css';
 import LogoB from '../../images/logo.png';
-import { NavLink } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 
 
 function NavBHome() {
@@ -40,7 +40,7 @@ function NavBHome() {
               <NavLink className="navbar-item me-5" activeClassName="is-active" to="/About" exact>About</NavLink>
               <NavLink className="navbar-item me-5" activeClassName="is-active" to="/Help" exact>Help</NavLink>
               <div className="me-5">
-                <Button className="rounded-pill fw-bold" activeClassName="is-active" to="/Tracker" exact>Tracker</Button>
+                <NavLink to="/UpDates"><Button className="rounded-pill fw-bold" activeClassName="is-active" exact>Tracker</Button></NavLink>
               </div>
             </Navbar.Collapse>           
           </Container>
