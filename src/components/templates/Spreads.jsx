@@ -16,7 +16,7 @@ function Spreads() {
                 <div className="row justify-content-center">
                     <div className="col-xl-8">
                         <div className="section-title text-center">
-                             <h5 className="title">Spreads</h5>
+                            <h5 className="title">Spreads</h5>
                             <h2 className="title2"><strong>Disease spreads from person to person</strong></h2>
                         </div>
                     </div>

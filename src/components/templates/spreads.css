@@ -9,7 +9,7 @@
 }
 .title2 {
     color: #293f73;
-    font-size: 53px;
+    font-size: calc(2em + 1vw);
     font-weight: 680;
     margin-bottom: 50px;
     font-family: "Poppins", sans-serif;
