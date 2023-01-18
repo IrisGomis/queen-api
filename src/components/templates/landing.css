@@ -1,44 +1,52 @@
 html{
 height: 100%;
-font-size: larger;
+font-family: 'Poppins', sans-serif;
 }
 .container{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-align: justify;
-  font-size: xx-large; 
-  
+  text-align: justify;  
+ 
 }
 
+:root{
+  --primary:hsl(240, 100%, 14%, 0.65);
+  --secondary:hsla(193, 78%, 49%, 0.651);
+ 
+}
+
+
 body{
-  background-image: url("../../images/3626307.jpg");
+  background: linear-gradient(135deg,var(--primary), var(--secondary)),
+         url("../../images/3626307.jpg");
   height: 100%;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%,100%;
 
-} 
+}
 
 .h1-home {
   font-family: 'Poppins', sans-serif;
-  font: size 80px;
-  padding-top: 50px;   
+  font-size:30pt;
+  font-weight: bold;
+  padding-top: 120px;   
 }
 .p-home{
   font-family: 'Poppins', sans-serif;
   padding-top:10px; 
 }
 
-.img-fluid{
-  height: 550px;
-  width:600px;
-  padding-right: 150px; 
+/*.img-fluid{
+  height:200px;
+  padding-right: 100px; 
   margin-top: 80px;
-}
+
+}*/
 
 .card{
   position: relative;
-  width: 350px;
+  width: 300px;
   height: 90px;
   margin: left 8px; 
   
@@ -50,24 +58,57 @@ body{
   align-items: center;
   justify-content: center;
   backface-visibility: hidden;
-  transition:2s;
+  transition:5s;
 
 }
-.card .front{
+
+.card-country{
+  display:flex;
+  flex-direction: row;
   background-color: white;
-  transform: perspective(500px) rotateY(0deg);
+  border-radius:10px;
+  width: 300px;
+  height: 90px;
+  text-align: left;
 }
-.card .back{
-  background-color: white;
-  transform: perspective() rotateY(180deg);
+.card-country-flag{
+  width: 100%;
+}
+.card-country-right{
+  padding:1em;
+  width: 200px;
+  color: red;
+  margin-left: 30px;
+
+  
+}
+.card-country-left{
+  padding:1em;
+  width: 120px;
+
 }
 
-.card:hover .front{
-  
-  transform: perspective(500px) rotateY(180deg);
+.Deaths{
+  background-color: orange;
+  color:white;
+  border-radius: 3px;
 }
+.Recovered{
+  background-color:rgb(36, 243, 129);
+  color:white;
+  border-radius: 3px;
+}
+@media (min-width: 376px){
+  .img-fluid {
+  width: 70%;
+  }
+  
+};
 
-.card:hover .back{
-  
-  transform: perspective(500px) rotateY(360deg);
-}
+
+@media (max-width: 375px) {
+  .img-fluid {
+    
+  }
+
+};
