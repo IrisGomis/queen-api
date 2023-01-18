@@ -8,6 +8,7 @@ import P4 from '../../images/p-4.jpg';
 import P5 from '../../images/p-5.jpg';
 import P6 from '../../images/p-6.jpg';
 
+
 function Spreads() {
   return (
         <section className="spreads padding-v100">
