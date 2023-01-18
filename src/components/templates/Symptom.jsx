@@ -9,8 +9,10 @@ function Symptom() {
     <Container fluid className="symptom-cont padding-v100 ">
       <Container fluid>
         <div className="row justify-content-center">
-          <h5 className="symptom">Symptom</h5>
-          <h2 className="basic-symptom">Basic Symptom Against Corona virus</h2>
+          <div className="col-xl-8">
+            <h5 className="title-symptom">Symptom</h5>
+            <h2 className="basic-symptom">Basic Symptom Against <br/> Corona virus</h2>
+          </div>
         </div>
         <div className="row">
           <CarouselSymptom />

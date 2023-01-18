@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import {NavDropdown, Nav, Navbar, Container, Button} from "react-bootstrap";
 import '../organismos/navBHome.css';
-//import LogoW from '../../images/logo-white.png';
 import LogoB from '../../images/logo.png';
 
 function NavBHome() {

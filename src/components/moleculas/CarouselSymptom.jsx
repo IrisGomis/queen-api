@@ -1,5 +1,9 @@
 import React from "react";
-import { Carousel, Card, Stack, Button } from "react-bootstrap";
+import '../moleculas/carouselSymptom.css';
+import { Carousel, Card, Stack, Container } from "react-bootstrap";
+import Fever from '../../images/icons/fever.svg';
+import Cough from '../../images/icons/cough.svg';
+import Breathing from '../../images/icons/breathing.svg';
 
 function CarouselSymptom() {
 
@@ -17,52 +21,55 @@ const reviews = [
 
   return (
     <div>
-      <div className="bg-dark bg-opacity-25 container-fluid">
+      <Container fluid>
         <Carousel style={{ height: 500 }}>
           {reviews.map((review, index) => (
             <Carousel.Item style={{ height: 500 }}>
               <Stack
                 direction="horizontal"
                 className="h-100 justify-content-center align-items-center"
-                gap={3}
-              >
+                gap={3}>
+
                 <Card style={{ width: "18rem" }}>
-                  <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                  <Card.Body className="shadow">
+                  <Card.Img className="img-card d-flex align-items-start" variant="left" src= {Fever} />
+                    <Card.Title className="title d-flex align-items-start"><strong>Fever</strong></Card.Title>
                     <Card.Text>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      Fever you feel hot to touch on your chest or back 
+                      (you do not need to measureyour temperature). It is also may appear in 2-10 days.
                     </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
                   </Card.Body>
                 </Card>
 
                 <Card style={{ width: "18rem" }}>
-                  <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                  <Card.Body className="shadow">
+                  <Card.Img className="img-card d-flex align-items-start" variant="left" src= {Cough} />
+                    <Card.Title className="title d-flex align-items-start"><strong>Cough</strong></Card.Title>
                     <Card.Text>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      Continuous coughing a lot for more than an hour, or 3 or more coughing episodes
+                      in 24 hours. If you usually have a cough, it may be worse than usual.
                     </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
                   </Card.Body>
                 </Card>
 
                 <Card style={{ width: "18rem" }}>
-                  <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                  <Card.Body className="shadow">
+                  <Card.Img className="img-card d-flex align-items-start" variant="left" src= {Breathing} />
+                    <Card.Title className="title d-flex align-items-start"><strong>Confusion</strong></Card.Title>
                     <Card.Text>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      Around 1 out of every 6 people who gets COVID-19 becomes
+                      difficulty breathing or shortness of breath a lot.
                     </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
                   </Card.Body>
-                </Card>
+                </Card>             
+
               </Stack>
             </Carousel.Item>
           ))}
+
+                        
         </Carousel>
-      </div>
+      </Container>
     </div>
   );
 }

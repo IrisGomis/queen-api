@@ -4,7 +4,7 @@ import coronavirus from '../../images/coronavirus.png';
 import '../../App';
 import "./navbtracker.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap-icons/font/bootstrap-icons.css";
+//import "bootstrap-icons/font/bootstrap-icons.css";
 
 function NavBTracker() {
   return (
@@ -76,4 +76,4 @@ function NavBTracker() {
   )
 }
 
-export default NavBTracker
+export default NavBTracker;
