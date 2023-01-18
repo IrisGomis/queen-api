@@ -1,11 +1,11 @@
 import './App.css';
-import Footer from './components/organismos/Footer';
+import Prevent from './components/templates/Prevent';
 
 
 function App() {
   return (
     <div className="App">
-
+      <Prevent />
     </div>
   );
 }
