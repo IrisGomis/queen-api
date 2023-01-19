@@ -19,7 +19,7 @@ function Landing() {
           Human coronaviruses are common and are typically associated with
           illnesses, similar to the common cold, The corona virus COVID-19 is
           affecting 210 countries & territories around the world and 2
-          international conveyances.
+          international conveyances..
         </p>
 
         <div className="card-country">
