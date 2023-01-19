@@ -1,4 +1,5 @@
-html{
+
+{
 height: 100%;
 font-family: 'Poppins', sans-serif;
 }
@@ -17,7 +18,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 
-body{
+{
   background: linear-gradient(135deg,var(--primary), var(--secondary)),
          url("../../images/3626307.jpg");
   height: 100%;
