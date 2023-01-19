@@ -1,0 +1,101 @@
+.div-covid-tracker{
+    text-align: left;
+}
+
+.h-covid-tracker{
+    padding: 0.5em;
+}
+
+.div-btn-covid-tracker{
+    padding: 0.5em;
+    width: 400px;
+ 
+}
+
+.btn-covid-tracker{
+    width: 390px;
+    text-align: left;
+    
+}
+
+.p-covid-tracker{
+    width: 350px;
+    align-content: center;
+    align-items: center;
+
+}
+
+.badge-covid-tracker{
+    background-color: aliceblue;
+}
+
+.span-badge-covid-tracker1{
+    text-align:left;
+    padding-right: 1em;
+    margin-right: 1em;
+    
+}
+
+.span-badge-covid-tracker2{
+    text-align:right !important ;
+    padding-left: 1em;
+    margin-left: 1em;
+    
+}
+
+.flag-covid-tracker{
+    width: 40px;
+    background-color: aliceblue;
+}
+
+.cases_covid-tracker{
+    background-color:lightpink;
+    color: red;
+       
+}
+
+.cases_covid-tracker:hover{
+    color: red;
+    border-width: 5px;
+    border-color: red;
+}
+
+.active_covid-tracker{
+    background-color:linen;
+    color:orangered ;
+}
+
+.active_covid-tracker:hover{
+    color: orangered;
+    border-width: 5px;
+    border-color: orangered;
+}
+
+
+.recovered_covid-tracker{
+    background-color: lightgreen;
+    color:darkgreen ;
+}
+
+.recovered_covid-tracker:hover{
+    color:darkgreen ;
+    border-width: 5px;
+    border-color:  darkgreen;
+}
+
+.deaths_covid-tracker{
+    background-color: lightblue;
+    color:darkblue ;
+}
+
+.deaths_covid-tracker:hover{
+    color:darkblue ;
+    border-width: 5px;
+    border-color: darkblue;
+}
+
+#top10_covid-tracker{
+    background-color: aliceblue;
+    border-radius: 1;
+    border: 1em;
+}

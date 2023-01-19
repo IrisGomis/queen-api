@@ -1,6 +1,7 @@
-import React from 'react'
-import "../images/wash.png"
-
+import React from 'react';
+import ImgWash from "../../images/wash.png";
+import "../../App";
+import "../templates/Wash.jsx"
 
 
 function Wash() {
@@ -9,7 +10,7 @@ function Wash() {
       <p>Wash</p>
       <h1>Wash your hands min 20 second</h1>
       <div className='hands-image'>
-       <img src="../images/wash.png" alt="foto-hands"></img>  
+       <img src={ImgWash} alt="foto-hands"></img>  
        </div>   
     </div>
   )
