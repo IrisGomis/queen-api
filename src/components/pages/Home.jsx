@@ -4,6 +4,9 @@ import Symptom from '../templates/Symptom';
 import Prevent from '../templates/Prevent';
 import Spreads from '../templates/Spreads';
 import Footer from '../organismos/Footer';
+import Wash from '../templates/Wash';
+import {BrowserRouter } from "react-router-dom";
+
 
 function Home() {
   return (
@@ -14,6 +17,7 @@ function Home() {
         <Symptom />
         <Prevent />
         <Spreads />
+        <Wash />
         <Footer/>
     </div>
   );
