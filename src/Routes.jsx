@@ -14,6 +14,7 @@ import Prevent from '../src/components/templates/Prevent'
 import Blog2 from './components/templates/Blog2';
 import Faqs from './components/templates/Faqs';
 import Mobile from './components/templates/Mobile';
+import Landing from "./components/templates/Landing.jsx";
 import Spreads from './components/templates/Spreads';
 import Symptom from './components/templates/Symptom';
 import Wash from './components/templates/Wash';
@@ -35,6 +36,7 @@ const Rutas = () => {
             <Route path="/Blog2" element={<Blog2/>}/>
             <Route path="/Faqs" element={<Faqs/>}/>
             <Route path="/Mobile" element={<Mobile/>}/>
+            <Route path="/Landing" element={<Landing/>}/>
             <Route path="/Spreads" element={<Spreads/>}/>
             <Route path="/Prevent" element={<Prevent/>}/>
             <Route path="/Symptom" element={<Symptom/>}/>
