@@ -13,7 +13,6 @@ import Updates from './components/pages/Updates';
 import Prevent from '../src/components/templates/Prevent'
 import Blog2 from './components/templates/Blog2';
 import Faqs from './components/templates/Faqs';
-import Landing from './components/templates/Landing';
 import Mobile from './components/templates/Mobile';
 import Spreads from './components/templates/Spreads';
 import Symptom from './components/templates/Symptom';
@@ -22,6 +21,7 @@ import Wash from './components/templates/Wash';
 const Rutas = () => {
      return (
         <Routes>
+            <Route path="/" element={<Home/>}/>
             <Route path="/NavBTraker" element={<NavBTraker/>}/>
             <Route path="/AjaxData" element={<AjaxData/>}/>
             <Route path="/CardsTraker" element={<CardsTracker/>}/>
@@ -34,7 +34,6 @@ const Rutas = () => {
             <Route path="/Updates" element={<Updates/>}/>
             <Route path="/Blog2" element={<Blog2/>}/>
             <Route path="/Faqs" element={<Faqs/>}/>
-            <Route path="/Landing" element={<Landing/>}/>
             <Route path="/Mobile" element={<Mobile/>}/>
             <Route path="/Spreads" element={<Spreads/>}/>
             <Route path="/Prevent" element={<Prevent/>}/>

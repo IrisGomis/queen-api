@@ -27,7 +27,7 @@ function NavBHome() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end fw-bold">
             <Nav.Link className="navbar-item me-5" activeClassName="is-active" to="/Home" exact>Home</Nav.Link>
-            <Nav.Link className="navbar-item me-5" activeClassName="is-active" to="/Prevention" exact>Prevention</Nav.Link>
+            <Nav.Link className="navbar-item me-5" activeClassName="is-active" to="/Prevent" exact>Prevention</Nav.Link>
             <Nav.Link className="navbar-item me-5" activeClassName="is-active" to="/Qurantine" exact>Qurantine</Nav.Link>
             <NavDropdown title="Pages" className="navbar-item me-5">
               <NavDropdown.Item className="navbar-item" activeClassName="is-active" to="/HandWash" exact>Hand Wash</NavDropdown.Item>
