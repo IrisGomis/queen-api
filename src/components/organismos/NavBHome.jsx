@@ -29,7 +29,7 @@ function NavBHome() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end fw-bold">
               <NavLink className="navbar-item me-5" activeClassName="is-active" to="/Home" exact>Home</NavLink>
-              <NavLink className="navbar-item me-5" activeClassName="is-active" to="/Prevention" exact>Prevention</NavLink>
+              <NavLink className="navbar-item me-5" activeClassName="is-active" to="/Prevent" exact>Prevention</NavLink>
               <NavLink className="navbar-item me-5"  activeClassName="is-active" to="/Spreads" exact>Qurantine</NavLink>
               <NavDropdown title="Pages" className="navbar-item me-5">
                 <NavDropdown.Item className="navbar-item" activeClassName="is-active" to="/HandWash" exact>Hand Wash</NavDropdown.Item>
