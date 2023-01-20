@@ -22,6 +22,7 @@ import Wash from './components/templates/Wash';
 const Rutas = () => {
      return (
         <Routes>
+            <Route path="/" element={<Home/>}/>
             <Route path="/NavBTraker" element={<NavBTraker/>}/>
             <Route path="/AjaxData" element={<AjaxData/>}/>
             <Route path="/CardsTraker" element={<CardsTracker/>}/>
@@ -43,4 +44,4 @@ const Rutas = () => {
         </Routes>
      )
  }
- export default Rutas
+ export default Rutas;
