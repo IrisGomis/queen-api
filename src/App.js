@@ -1,10 +1,15 @@
-import './App.css';
-import Faqs from './components/templates/Faqs';
+import * as React from "react";
+import "./App.css";
+import Routes from "./Routes";
+import {BrowserRouter } from "react-router-dom";
 
 function App() {
+             
   return (
     <div className="App">
-      <Faqs />
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
     </div>
   );
 }
