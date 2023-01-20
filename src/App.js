@@ -1,11 +1,10 @@
 import './App.css';
-import Footer from './components/organismos/Footer';
-
+import Faqs from './components/templates/Faqs';
 
 function App() {
   return (
     <div className="App">
-      <Footer />
+      <Faqs />
     </div>
   );
 }
