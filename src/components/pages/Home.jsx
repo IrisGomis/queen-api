@@ -4,6 +4,7 @@ import Symptom from '../templates/Symptom';
 import Prevent from '../templates/Prevent';
 import Spreads from '../templates/Spreads';
 import Footer from '../organismos/Footer';
+import Landing from '../templates/Landing';
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
         <header>
           <NavBHome />
         </header>
+        <Landing />
         <Symptom />
         <Prevent />
         <Spreads />
