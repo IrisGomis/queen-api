@@ -5,6 +5,7 @@ import Prevent from '../templates/Prevent';
 import Spreads from '../templates/Spreads';
 import Footer from '../organismos/Footer';
 import Wash from '../templates/Wash';
+import Mobile from '../templates/Mobile';
 import {BrowserRouter } from "react-router-dom";
 
 
@@ -18,6 +19,7 @@ function Home() {
         <Prevent />
         <Spreads />
         <Wash />
+        <Mobile />
         <Footer/>
     </div>
   );
