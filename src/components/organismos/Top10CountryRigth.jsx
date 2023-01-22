@@ -1,69 +1,37 @@
 import "./Top10CountryRigth.css";
 import ApiConsum from "../../services/ApiConsum";
+import Top10Country from "../moleculas/Top10Country"
 
 const Top10CountryRigth = () => {
-
-  const dataCases = ApiConsum("countries/");
-  dataCases.sort((a,b) =>  b.cases - a.cases);
-  const TodayCases = ApiConsum("countries/");
-  //TodayCases.sort((a,b) =>  b.cases - a.cases);
-    
+   
   return (
     <div className="div-top10country" >
       <h2 className="h-div-top10country">Top 10 Country wise Covid-19 Updates - Tiles</h2>
       <hr></hr>
       <div className="div-top10country-main">
-        <div className="div-top10country-main-TopCases">
+        <div className="div-top10country-main-TopToday">
           <h3 className="h-div-top10country-main">Top Cases</h3>
-          <ul class="pt-2">
-            
-            {dataCases.slice(0,10).map((item) => ( 
-                <li class="li-top10country-main  " key = {item.countryInfo._id}>
-                    <div className="div-list-top10country-main">
-                        <p>
-                          <span className="span-div-list-top10country-main-1">
-                            <img src={item.countryInfo.flag} alt="" className="flag-top10country"  />  
-                          </span>
-                          <span className="span-div-list-top10country-main-2" >
-                              <p className="p-span-div-list-top10country-main-2-1">{ item.country}</p>
-                              <p className="p-span-div-list-top10country-main-2-2">{ item.cases }</p>
-                          </span>
-                        </p>
-                    </div>
-                </li>
-            ))}
-            </ul>
+          <Top10Country filtro={"cases"}/>
         </div>
-        <div className="div-Top10Country-main-TodayCases">
+        <div className="div-top10country-main-TopToday">
           <h3 className="h-div-top10country-main">Today Cases</h3>
-          <ul class="pt-2">
-            
-            {TodayCases.slice(0,10).map((item) => ( 
-                <li class="li-top10country-main  " key = {item.countryInfo._id}>
-                    <div className="div-list-top10country-main">
-                        <div className="span-div-list-top10country-main-1">
-                          <img src={item.countryInfo.flag} alt="" className="flag-top10country"  />  
-                        </div>
-                        <div className="span-div-list-top10country-main-2" >
-                            <p className="p-span-div-list-top10country-main-2-1">{ item.country}</p>
-                            <p className="p-span-div-list-top10country-main-2-2">{ item.cases }</p>
-                        </div>
-                    </div>
-                </li>
-            ))}
-            </ul>
+          <Top10Country filtro={"todayCases"}/>
         </div>
-        <div className="div-Top10Country-main-TopDeaths">
+        <div className="div-top10country-main-TopToday">
           <h3 className="h-div-top10country-main">Top Deaths</h3>
+          <Top10Country filtro={"deaths"}/>
         </div>
-        <div className="div-Top10Country-main-TodayDeaths">
+        <div className="div-top10country-main-TopToday">
           <h3 className="h-div-top10country-main">Today Deaths</h3>
+          <Top10Country filtro={"todayDeaths"}/>
         </div>
-        <div className="div-Top10Country-main-TopActive">
+        <div className="div-top10country-main-TopToday">
           <h3 className="h-div-top10country-main">Top Active</h3>
+          <Top10Country filtro={"active"}/>
         </div>
-        <div className="div-Top10Country-main-TopRecover">
+        <div className="div-top10country-main-TopToday">
           <h3 className="h-div-top10country-main">Top Recover</h3>
+          <Top10Country filtro={"recovered"}/>
         </div>
 
       </div>
