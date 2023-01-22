@@ -11,16 +11,16 @@ import Orange from "../../images/icons/covid-orange.svg";
 import Mapa from "../../images/mapa2.JPG";
 import Defult from "../../images/icons/covid-defult.svg";
 import Redark from "../../images/icons/covid-redark.svg";
-// import { useState } from "react";
+import {useState} from "react";
 
 function Updates() {
-  const dataCountries = ApiConsum("countries/");
-  const dataCountry = ApiConsum("countries/usa");
-  // const dataCountry = ApiConsum(`countries/${""}`);
-  // const [selectedCountry, setSelectedCountry] = useState('');
-  // const selectedCountryData = dataCountries.find(
-  //   (country) => country.country === selectedCountry
-  // );
+  const [selectedCountry, setSelectedCountry] = useState('Afghanistan');
+  const countries = ApiConsum("countries/");
+  const dataCountry = ApiConsum (`countries/${selectedCountry}`);
+  const captureValue = (e) => {
+    setSelectedCountry(e.target.value);
+    dataCountry(ApiConsum (`countries/${selectedCountry}`));
+  }
 
   const getCurrentDate = () => {
     const currentDate = new Date();
@@ -42,10 +42,9 @@ function Updates() {
             <div className="car">
               <div className="form-group">
                 <select id="select-countries" className="btn bg-white"
-                // value={selectedCountry}
-                // onChange={(e) => setSelectedCountry(e.target.value)}
-                >
-                  {dataCountries.map((item) => (
+                onChange={captureValue}
+                value={selectedCountry} >
+                  {countries.map((item) => (
                     <option value={item.country} key={item.country}>
                       {item.country}
                     </option>
@@ -98,7 +97,7 @@ function Updates() {
                     </div>
                     <div className="d-flex justify-content-start align-items-center p-2">
                       <p className=" ms-2 fs-2 mb-0 fw-bold text-success">
-                      {dataCountry.recovered}
+                       {dataCountry.cases}
                       </p>
                     </div>
                     <img src={Green} className="colores" alt="covid"></img>
