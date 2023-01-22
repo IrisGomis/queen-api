@@ -7,11 +7,11 @@ function CovidTrackerTop() {
     const data = ApiConsum("all");
     return(
         <div className="div-covid-tracker">
-            <div class="text-left mb-2 mt-3">
-                <h2 class="h-covid-tracker">COVID-19 Tracker</h2>
+            <div className="text-left mb-2 mt-3">
+                <h2 className="h-covid-tracker">COVID-19 Tracker</h2>
             </div>
-            <ul class="pt-2">
-                <li class=" text-left list-covid-tracker ">
+            <ul className="pt-2">
+                <li className=" text-left list-covid-tracker ">
                     <div className="div-list-covid-tracker cases_covid-tracker">
                         <span className="h-covid-tracker3 span-badge-covid-tracker1">
                             Total Case:
@@ -24,7 +24,7 @@ function CovidTrackerTop() {
                         </span>
                     </div>
                 </li>
-                <li class="text-left list-covid-tracker ">
+                <li className="text-left list-covid-tracker ">
                     <div className="div-list-covid-tracker active_covid-tracker">
                         <span className="h-covid-tracker3 span-badge-covid-tracker1">
                             Active Case:
@@ -34,7 +34,7 @@ function CovidTrackerTop() {
                         </span>
                     </div> 
                 </li>
-                <li class="text-left list-covid-tracker ">
+                <li className="text-left list-covid-tracker ">
                     <div className="div-list-covid-tracker recovered_covid-tracker">
                         <span className="h-covid-tracker3 span-badge-covid-tracker1">
                             Recovered Case:
@@ -47,7 +47,7 @@ function CovidTrackerTop() {
                         </span>
                     </div>
                 </li>
-                <li class="text-left list-covid-tracker ">
+                <li className="text-left list-covid-tracker ">
                     <div className="div-list-covid-tracker deaths_covid-tracker">
                         <span className=" h-covid-tracker3 span-badge-covid-tracker1">
                             Deaths Case:

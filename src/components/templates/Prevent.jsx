@@ -12,24 +12,24 @@ import WearAFacemask from '../../images/banner-right.png';
 function Prevent() {
   return (
     <Container className="prevent">
-        <div class="row-prevent-title">
-            <div class="col-prevent-title">
+        <div className="row-prevent-title">
+            <div className="col-prevent-title">
                 <h5 className="page-prevent-titles-title">
                     Prevent
                 </h5>
             </div>
         </div>
 
-        <div class="row-prevent-title">
-            <div class="col-prevent-title">
+        <div className="row-prevent-title">
+            <div className="col-prevent-title">
                 <h2 className="page-prevent-titles-subtitle">
                     Best way to prevent is avoid virus.
                 </h2>
             </div>
         </div>
 
-        <div class="row-prevent">
-            <div class="col-prevent">
+        <div className="row-prevent">
+            <div className="col-prevent">
                 <CardPrevent 
                     image={ PersonalContact }
                     title="Personal Contact"
@@ -38,7 +38,7 @@ function Prevent() {
                     least 100."
                 />
             </div>
-            <div class="col-prevent">
+            <div className="col-prevent">
                 <CardPrevent 
                     image={ WashHands }
                     title="Wash Hands"
@@ -49,8 +49,8 @@ function Prevent() {
             </div>
         </div>
 
-        <div class="row-prevent">
-            <div class="col-prevent">
+        <div className="row-prevent">
+            <div className="col-prevent">
                 <CardPrevent 
                     image={ SocialDistancing }
                     title="Social Distancing"
@@ -58,7 +58,7 @@ function Prevent() {
                     can transfer the virus to your eyes, nose or mouth and can make you sick."
                 />
             </div>
-            <div class="col-prevent">
+            <div className="col-prevent">
                 <CardPrevent 
                     image={ RespiratoryHygiene }
                     title="Respiratory Hygiene"
@@ -68,8 +68,8 @@ function Prevent() {
             </div>
         </div>
 
-        <div class="row-prevent">
-            <div class="col-prevent">
+        <div className="row-prevent">
+            <div className="col-prevent">
                 <CardPrevent 
                     image={ CleanAndDesinfect }
                     title="Clean And Desinfect"
@@ -78,7 +78,7 @@ function Prevent() {
                     least 100."
                 />
             </div>
-            <div class="col-prevent">
+            <div className="col-prevent">
                 <CardPrevent 
                     image={ WearAFacemask }
                     title="Wear a Facemask"
