@@ -16,4 +16,5 @@ const ApiConsum = (endPoint) => {
 }
 
 export default ApiConsum;
+
   
