@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# [![coronavirus.png](https://i.postimg.cc/7L3k0Chj/coronavirus.png)](https://postimg.cc/Ty3FX3rc) COVIMAP 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+El Covid-19 es una realidad que afrontamos en este siglo, y a pesar de ser tan malo, gracias a la tecnología podemos luchar contra él creando estrategias, medidas de contención basándonos en datos que podemos recoger y mantener informado a cualquier usuario de la situación en cada país.
 
-## Available Scripts
+## Construido con 🛠️
 
-In the project directory, you can run:
+* [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Libreria web usada. 
+* [Disiase.sh](https://corona.lmao.ninja/) - API utilizada para la recolección de datos.
+* [Css]() - Preprocesador. 
+* [Html]() - Maquetación.
+* [React]() - Interactividad.
+* [Atomic Design]() - Diseño por componentes
 
-### `npm start`
+## Autores ✒️
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **Irirs Gomis** - *Desarrolladora - Product Owner*  
+* **Ana García** - *Desarrolladora - Scrum master*  
+* **Sara Álvarez** - *Desarrolladora* 
+* **Georgette** - *Desarrolladora* 
+* **Mariela Peñalver** - *Desarrolladora*
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Comenzando 🚀
+Desarrollamos una página web en la que los usuarios pueden consultar diversa información acerca de los datos referentes a la pandemía ocasionada por el COVID-19.
 
-### `npm test`
+## Landing page principal 📷
+- Header section
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[![header.png](https://i.postimg.cc/Qx3NDHZh/header.png)](https://postimg.cc/t7BGtRgM)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Symptom section
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[![symptom.png](https://i.postimg.cc/8C9D0Cb8/symptom.png)](https://postimg.cc/yJmwJs5n)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Prevent section
 
-### `npm run eject`
+[![prevent.png](https://i.postimg.cc/LsYFLpFx/prevent.png)](https://postimg.cc/Z9SQzXRN)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Spreads section
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[![spreads.png](https://i.postimg.cc/28kpTvfb/spreads.png)](https://postimg.cc/F1BnHYzN)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Faqs section
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[![faqs.png](https://i.postimg.cc/P57BtRvY/faqs.png)](https://postimg.cc/4Yz8Pw5x)
 
-## Learn More
+- Wash section
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[![wash.png](https://i.postimg.cc/D07NjVRk/wash.png)](https://postimg.cc/621zqP9Y)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[![app.png](https://i.postimg.cc/T3K4HJNw/app.png)](https://postimg.cc/qNdwNyTV)
 
-### Code Splitting
+- News section
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[![news.png](https://i.postimg.cc/5yPssXwL/news.png)](https://postimg.cc/gLZyJkt2)
 
-### Analyzing the Bundle Size
+## Tracker 📷
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[![tracker-1.png](https://i.postimg.cc/R0cGjs7M/tracker-1.png)](https://postimg.cc/1g3pFK7T)
 
-### Making a Progressive Web App
+[![tracker2.png](https://i.postimg.cc/RCPG5nHn/tracker2.png)](https://postimg.cc/K4MttjQZ)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[![tracker3.png](https://i.postimg.cc/mDL3KbZw/tracker3.png)](https://postimg.cc/f3P09Q9t)
 
-### Advanced Configuration
+[![tracker4.png](https://i.postimg.cc/pXhfwcvg/tracker4.png)](https://postimg.cc/mt41Mwtw)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+[![tracker-5.png](https://i.postimg.cc/DZwsBB5p/tracker-5.png)](https://postimg.cc/PL0Pqbg1)
 
-### Deployment
+[![tracker8.png](https://i.postimg.cc/RC8fL1tG/tracker8.png)](https://postimg.cc/Z08CTdVy)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Mira Deployment para conocer como desplegar el proyecto 💻
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Pre-requisitos 📋
+No se necesita ningun programa o elemento externo. Con solo visitar el link del proyecto puedes acceder a toda la información. 
+
+
+
+## Despliegue 📦
+
+- Para realizar el deploy el usuario debe acceder desde el link previamente proporcionado. Hecho esto, se abrirá una ventana donde se podrá ver la Web App. 
+- Para poder acceder a los datos en tiempo real, el usuario debe dirigirse al botón llamado "Tracker". 
+
+[![Sin-t-tulo-removebg-preview.png](https://i.postimg.cc/BbvSsxs2/Sin-t-tulo-removebg-preview.png)](https://postimg.cc/qh9Vx6N7)
+
+
+
+## Expresiones de Gratitud 🎁
+
+* Formadores FactoriaF5 FEMcoders Norte.
