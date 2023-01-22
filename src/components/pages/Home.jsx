@@ -7,6 +7,7 @@ import Spreads from '../templates/Spreads';
 import Faqs from '../templates/Faqs';
 import Wash from '../templates/Wash';
 import Mobile from '../templates/Mobile';
+import News from '../templates/News';
 import Footer from '../organismos/Footer';
 
 function Home() {
@@ -22,6 +23,7 @@ function Home() {
         <Faqs />
         <Wash />
         <Mobile />
+        <News />
         <Footer/>
     </div>
   );

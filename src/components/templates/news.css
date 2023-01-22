@@ -1,0 +1,18 @@
+.news{
+    height: 110vh;
+    background-color: #f0f8ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.news-title-cont{
+    color: #233f7f;
+    margin-top: 20%;
+}
+
+.news-subtitle{
+    font-size: calc(2em + 1vw);
+    font-weight: 700;
+}
