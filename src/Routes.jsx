@@ -19,6 +19,7 @@ import Spreads from './components/templates/Spreads';
 import Symptom from './components/templates/Symptom';
 import Wash from './components/templates/Wash';
 
+
 const Rutas = () => {
      return (
             <Routes>

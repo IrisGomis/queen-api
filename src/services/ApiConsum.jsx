@@ -10,8 +10,8 @@ const ApiConsum = (endPoint) => {
       .then(async (response) => {
        if (response.ok) setData(await response.json());
     });
-  },[data]);
-  console.log(data);
+  },[]);
+  // console.log(data);
   return data;
 }
 

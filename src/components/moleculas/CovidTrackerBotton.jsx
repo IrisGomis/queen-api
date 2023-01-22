@@ -10,13 +10,13 @@ function CovidTrackerBotton() {
     
     return(
         <div className="div-covid-tracker">
-            <div class="text-left mb-2 mt-3">
+            <div className="text-left mb-2 mt-3">
                 <h3 className="h-top10-covid-tracker">Top 10 Country</h3>
             </div>
-            <ul class="pt-2">
+            <ul className="pt-2">
             {
             dataCountry.slice(0,10).map((item) => ( 
-                <li class=" list-top10-covid-tracker " key = {item.countryInfo._id}>
+                <li className=" list-top10-covid-tracker " key = {item.countryInfo._id}>
                     <div className="div-list-covid-tracker top10_covid-tracker">
                         <span className="span-badge-top10-covid-tracker1 text-start">
                             <Badge className="badge-covid-tracker"  bg=""   >
