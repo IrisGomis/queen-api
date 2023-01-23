@@ -1,6 +1,7 @@
 .div-top10country{
     background-color: #f5f6fa;
-    height: 1000px;
+    height: 1200px;
+    margin: 0em;
 }
 
 .h-div-top10country{
@@ -15,13 +16,12 @@
   font-family: Poppins, sans-serif;
   display: flex;
   flex-direction: row;
+  margin: 0em;
 }
 
 .div-top10country-main-TopToday{
-    width: 220px;
-    
+    width: 215px;
 }
-
 
 .h-div-top10country-main{
     text-align:center ;
@@ -33,8 +33,6 @@
 
 .li-top10country-main{
     list-style:none;
-    /*height: 70px;*/
-    /*background-color: darkorchid;*/
 }
 
 .div-list-top10country-main{
@@ -64,7 +62,7 @@
     float:left;
     font-size: 12px;
     font-weight: 600 ;
-    /*background-color: darkmagenta;*/
+   
 }
 .span-div-list-top10country-main-2{
     text-align: left ;
@@ -75,8 +73,7 @@
     float: right;
     font-size: 12px;
     font-weight: 600 ;
-    /*background-color: cyan;*/
-   
+       
 }
 
 .flag-top10country{
