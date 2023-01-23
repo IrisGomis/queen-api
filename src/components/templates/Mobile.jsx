@@ -7,10 +7,10 @@ import Button from "react-bootstrap/Button";
 
 function Mobile() {
   return (
-    <div classNaame="container-phone">
+    <div className="container-phone">
       <div className="contenedor-background">
         <div className="phone-background">
-          <div class="row-phone-left">
+          <div className="row-phone-left">
             <h1 className="phone-tittle">
               Get the simple app <br /> for latest news
             </h1>

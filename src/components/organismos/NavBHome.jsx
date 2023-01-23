@@ -28,21 +28,21 @@ function NavBHome() {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end fw-bold">
-              <NavLink className="navbar-item me-5" activeClassName="is-active" to="/Home" exact>Home</NavLink>
-              <NavLink className="navbar-item me-5" activeClassName="is-active" to="/Prevent" exact>Prevention</NavLink>
-              <NavLink className="navbar-item me-5"  activeClassName="is-active" to="/Spreads" exact>Qurantine</NavLink>
+              <NavLink className="navbar-item me-5" to="/Home">Home</NavLink>
+              <NavLink className="navbar-item me-5" to="/Prevent">Prevention</NavLink>
+              <NavLink className="navbar-item me-5" to="/Spreads">Qurantine</NavLink>
               <NavDropdown title="Pages" className="navbar-item me-5">
-                <NavDropdown.Item className="navbar-item" activeClassName="is-active" to="/Wash" exact>Hand Wash</NavDropdown.Item>
-                <NavDropdown.Item className="navbar-item" activeClassName="is-active" to="/SocialDistance" exact>Social Distance</NavDropdown.Item>
-                <NavDropdown.Item className="navbar-item" activeClassName="is-active" to="/Blog2" exact>Blog</NavDropdown.Item>
-                <NavDropdown.Item className="navbar-item" activeClassName="is-active" to="/Faqs" exact>Blog Details</NavDropdown.Item>
+                <NavDropdown.Item className="navbar-item" to="#">Hand Wash</NavDropdown.Item>
+                <NavDropdown.Item className="navbar-item" to="#">Social Distance</NavDropdown.Item>
+                <NavDropdown.Item className="navbar-item" to="#">Blog</NavDropdown.Item>
+                <NavDropdown.Item className="navbar-item" to="#">Blog Details</NavDropdown.Item>
               </NavDropdown>
-              <NavLink className="navbar-item me-5" activeClassName="is-active" to="#" exact>About</NavLink>
-              <NavLink className="navbar-item me-5" activeClassName="is-active" to="/Faqs" exact>Help</NavLink>
+              <NavLink className="navbar-item me-5" to="/Blog2">About</NavLink>
+              <NavLink className="navbar-item me-5" to="/Faqs">Help</NavLink>
               <div className="me-5">
-                <NavLink to="/UpDates"><Button className="rounded-pill fw-bold" activeClassName="is-active" exact>Tracker</Button></NavLink>
+                <NavLink to="/UpDates"><Button className="rounded-pill fw-bold">Tracker</Button></NavLink>
               </div>
-            </Navbar.Collapse>           
+            </Navbar.Collapse>      
           </Container>
         </Navbar>
     </>

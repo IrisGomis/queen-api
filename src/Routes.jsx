@@ -11,7 +11,6 @@ import News from './components/pages/News';
 import Top10Country from './components/pages/Top10Country';
 import Updates from './components/pages/Updates';
 import Prevent from '../src/components/templates/Prevent'
-import Blog2 from './components/templates/Blog2';
 import Faqs from './components/templates/Faqs';
 import Mobile from './components/templates/Mobile';
 import Landing from "./components/templates/Landing.jsx";
@@ -34,7 +33,6 @@ const Rutas = () => {
             <Route path="/News" element={<News/>}/>
             <Route path="/Top10Country" element={<Top10Country/>}/>
             <Route path="/Updates" element={<Updates/>}/>
-            <Route path="/Blog2" element={<Blog2/>}/>
             <Route path="/Faqs" element={<Faqs/>}/>
             <Route path="/Landing" element={<Landing/>}/>
             <Route path="/Mobile" element={<Mobile/>}/>

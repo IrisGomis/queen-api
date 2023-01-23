@@ -11,20 +11,15 @@ const reviews = [
     { _id: 1, text: "abc" },
     { _id: 2, text: "def" },
     { _id: 3, text: "ghi" },
-    { _id: 4, text: "jkl" },
-    { _id: 5, text: "mno" },
-    { _id: 6, text: "pqr" },
-    { _id: 7, text: "stu" },
-    { _id: 8, text: "vwx" },
-    { _id: 9, text: "yza" }
+   
   ];
 
   return (
     <div>
       <Container fluid>
-        <Carousel style={{ height: 500 }}>
-          {reviews.map((review, index) => (
-            <Carousel.Item style={{ height: 500 }}>
+        <Carousel style={{ height: 500 }} >
+          {reviews.map((review) => (
+            <Carousel.Item style={{ height: 500 }} key={review._id}>
               <Stack
                 direction="horizontal"
                 className="h-100 justify-content-center align-items-center"
