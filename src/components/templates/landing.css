@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 100vh;
+  min-width: 100vw;
   background-size: cover;
   background-image:linear-gradient(to right, rgba(30,12,157,0.7), rgba(6,205,236,0.7)), 
   url(../../images/3626307.jpg);
